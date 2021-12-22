@@ -1,0 +1,19 @@
+.menu-nuevo li {
+    list-style: none;
+    text-decoration:none;
+    font-size: 26px;
+    font-weight: bold;
+    list-style: none;
+    color: darkgray; 
+    line-height: 40px;
+}
+
+.menu-nuevo li:hover {
+    color: black; 
+    text-decoration:underline darkgray;
+}
+
+.menu-nuevo{
+    padding-left: 10px;
+}
+

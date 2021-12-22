@@ -1,0 +1,38 @@
+{
+    "hello": "Esta muy buena la cosa",
+    "menu": {
+        "home": "Home",
+        "about": "Nosotros",
+        "services": "Servicios",
+        "contact": "Contacto",
+        "infoService" : {
+            "srv1": "Sistema solar fotovoltaíco",
+            "srv2": "Iluminación",
+            "srv3": "Sistema de Bombeo",
+            "srv4": "Baterias",
+            "srv5": "Calentadores de Agua"
+        },
+        "infoAbout" : {
+            "about1": "Quienes somos",
+            "about2": "Misión",
+            "about3": "Visión",
+            "about4": "Empresa",
+            "about5": "Ubicaciones"
+        },
+        "login": "Entrar"
+    },
+    "header": {
+        "titleHeader": "Aportamos soluciones para facilitar sus proyectos energéticos",
+        "textHeader": "Somos una empresa que aporta beneficios energéticos a su empresa con relaciones a largo plazo con nuestros clientes"
+    },
+    "centerMenu": {
+        "srv1": "Sistemas solares",
+        "srv2": "Iluminación",
+        "srv3": "Sistema de Bombeo",
+        "srv5": "Calentadores de Agua"
+    },
+    "newslettertitle": "Our Newsletter",
+    "newsletter": "Subscribe to our newsletter to get our news & deals delivered to you."
+}
+ 
+ 
