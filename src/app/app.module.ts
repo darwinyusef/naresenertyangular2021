@@ -54,6 +54,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HttpClientModule, 
   ],
   providers: [{provide: APP_BASE_HREF, useValue : '/' }],
+  exports: [Section4Component],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,11 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "dev:ssr": "ng run naresWebpage:serve-ssr",
-    "serve:ssr": "node dist/naresWebpage/server/main.js",
-    "build:ssr": "ng build && ng run naresWebpage:server",
-    "prerender": "ng run naresWebpage:prerender"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -27,7 +23,6 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@nguniversal/express-engine": "^13.0.1",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "axios": "^0.24.0",
