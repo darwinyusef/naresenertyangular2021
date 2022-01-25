@@ -8,3 +8,18 @@ footer {
     justify-content: center;
     margin-top: 40px;
 }
+
+.margin-style {
+    overflow: hidden;
+  }
+  .margin-style img {
+    margin-left: 10px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+.margin-style img:hover {
+    margin-top: -5px;
+    filter: grayscale(100%);
+    zoom: 1.1;
+  }

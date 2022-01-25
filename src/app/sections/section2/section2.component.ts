@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -8,14 +8,20 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class Section2Component implements OnInit {
 
+  @Input('falsy') falsy: any;
   constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
-
   }
 
   changeLanguaje(idiom: string): void{
-    this.translate.use(idiom);
+    localStorage.setItem('idiom', idiom);
+
+    if(localStorage.getItem('idiom')){
+      console.log(localStorage.getItem('idiom'));
+      let elem = localStorage.getItem('idiom');
+      this.translate.use( elem != null ? elem : 'en' );
+    }
   }
 
 }

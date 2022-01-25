@@ -2,46 +2,100 @@
   "hello": "This is a grate the think",
   "menu": {
     "home": "Home",
-    "about": "About",
+    "about": "About us",
     "services": "Services",
     "contact": "Contact",
     "infoService": {
-      "srv1": "Sistema solar fotovoltaíco",
-      "srv2": "Iluminación",
-      "srv3": "Sistema de Bombeo",
-      "srv4": "Baterias",
-      "srv5": "Calentadores de Agua"
+      "srv1": "Solar photovoltaic system",
+      "srv2": "Illumination",
+      "srv3": "Pumping system",
+      "srv4": "Batteries",
+      "srv5": "Water heaters"
     },
     "infoAbout": {
-      "about1": "Quienes somos",
-      "about2": "Misión",
-      "about3": "Visión",
-      "about4": "Empresa",
-      "about5": "Ubicaciones"
+      "about1": "About us",
+      "about2": "Mission",
+      "about3": "View",
+      "about4": "Business",
+      "about5": "Locations"
     },
-    "login": "Entrar"
+    "login": "Get in"
+  },
+  "menu-footer": {
+    "reserved": "All rights reserved.",
+    "founder": "Find us at:", 
+    "read-more": "Read more",
+    "terms": "Terms of use",
+    "politycs": "Privacy policies",
+    "our": "Our services",
+    "newslatter": "Subscribe to our newsletter to get more information",
+    "email": "Email",
+    "send": "Send"
   },
   "header": {
-    "titleHeader": "We bring solutions to easier make yours energy products",
-    "textHeader": "We are a company that brings energy benefits to your company with long-term relationships with ours customers"
+    "titleHeader": "We provide solutions to facilitate your energy projects",
+    "textHeader": "We are a company that brings energetic benefits to your company with long-term relationships with our clients",
+    "menu1Header": "Nares is an innovator of renewable energy solutions that are manufactured using new technologies, quality and innovative applications, we offer a complete range of hydrogen solar energy products and wind energy products to help customers like you meet the current needs.",
+    "menu2Header": "Our services provide quality renewable energy and equipment with new technologies at a company level.pleta gama de productos de energía solar, hidrógeno y productos de energía eólica para ayudar a clientes como ustedes a satisfacer las necesidades de la actualidad."
   },
   "centerMenu": {
-    "srv1": "Sistema solar fotovoltaíco",
-    "srv2": "Iluminación",
-    "srv3": "Sistema de Bombeo",
-    "srv4": "Calentadores de Agua"
+    "srv1": "Solar Systems",
+    "srv2": "Lighting",
+    "srv3": "Pumping System",
+    "srv5": "Water Heaters"
+  },
+  "services": {
+    "principal-title": "Learn about the construction methodology of our products to provide solutions to your projects",
+    "etiquetas1": {
+      "titulo": "Solar photovoltaic system",
+      "subtitulo": "The use of solar panels and a whole compendium of electronic equipment",
+      "contenido": {
+        "titulo": "Solar photovoltaic system",
+        "bloquetexto": "Photovoltaic solar energy is a renewable and clean energy source that uses solar radiation to produce electricity, this can be produced using the different components and solar panels that are presented in the diagram below.",
+        "lista": {
+          "lista1": "Current controller (Solar and electric energy).",
+          "lista2": "Solar panels according to the customer's energy needs.",
+          "lista3": "Inverters and current batteries that allow the recovery and use of energy."
+        }
+      }
+    },
+    "etiquetas2": {
+      "titulo": "Pumping system",
+      "subtitulo": "We automatically generate a water pumping system with solar energy.",
+      "contenido": {
+        "titulo": "Pumping system",
+        "bloquetexto": "The pumping system that we have at NaresEnergy is based on a simple principle: The pressure exerted on the surface of a fluid can be recovered through the use of electric energy pumping machinery that is captured with solar panels and allows the execution of each of the required tasks, some components are presented in the diagram below.",
+        "lista": {
+          "lista1": "Current controller (Solar and electrical energy) and energy recovery batteries.",
+          "lista2": "Solar panels according to the customer's energy needs.",
+          "lista3": "Pumping tubes and water pumps."
+        }
+      }
+    },
+    "etiquetas3": {
+      "titulo": "Water heaters",
+      "subtitulo": "Through copper coils it is possible to heat water using solar energy.",
+      "contenido": {
+        "titulo": "Water Heaters",
+        "bloquetexto": "The operating system of the non-pressure solar water heater is a passive system based on the thermosiphon principle as an energy saving alternative, it works through solar heating of the tubes, changing the density of the cold water hot and sending the water into a tank.",
+        "lista": {
+          "lista1": "Water tank with a capacity of 100 liters up to 300 liters.",
+          "lista2": "They can be installed both on the roof of your house and in the building or in your basement.",
+          "lista3": "They can use (solar collector) type panels and these in turn will heat the water in the respective tanks."
+        }
+      }
+    }
   },
   "contact": {
-    "principal-title": "",
-    "secondary-title": "",
+    "principal-title": "Contact us",
+    "secondary-title": "Through this space you will be able to contact us quickly using our request form.",
     "advertisement": {
-      "title": "",
-      "paragraph1": "",
-      "paragraph2": "",
-      "paragraph4": ""
+      "title": "Let's talk is important to us",
+      "paragraph1": "Talk to our customers and build a relationship (B2C or B2B) with us and our customers or other companies.",
+      "paragraph2": "It allows us to generate a level of trust and communication link io in which the transactions of goods or the provision of our services become even better and more effective"
     },
     "form": {
-      "input-name": "",
+      "input-name": "First name *",
       "input-last": "",
       "input-email": "",
       "input-department": {
@@ -85,80 +139,37 @@
       "ven": ""
     }
   },
-  "about": {
-    "principal-title": "",
-    "secondary-title": "",
-    "sub-title1": "", 
-    "paragraph1": "",
-    "sub-title2": "", 
-    "paragraph2": ""
-  },
   "misionvision": {
-    "principal-title": "",
+    "principal-title": "About us",
+    "paragraph1": "Nares is an innovator of renewable energy solutions that are manufactured using new technologies, innovative and quality applications, we offer a complete range of hydrogen solar energy products and wind energy products to help customers like you meet the current needs, with its offices in Miami, Florida, Bogotá, Colombia, and Valencia, Venezuela. Nares Energy provides its services to customers in North America and Latin America at a commercial, industrial and residential sector level. To ensure the satisfaction of our customers, we concentrate our efforts on provide excellent service to our consumers, we are dedicated to building long-term relationships with our customers by providing complete solutions from research to delivery and commissioning of solar systems and years of warranty service and support we will help the renewing your personal environment in homes and communities healthy at low energy costs lighting and pumping and heating water a clean and protected environment.",
+    "paragraph2": "We have a wide range of solar heaters for your home, office or industry with a capacity of 100 liters and up. We have simple or split units to be installed both on the roof of the house, building or basement, and also in open areas",
+    "paragraph3": "Renewable, solar and wind energy systems, water extraction pumps for deep wells, solar water heaters directly from the manufacturer we supply and install photovoltaic solar energy systems designed according to the user's needs we supply systems from of 2000 vt installed on site with capacity for homes, communities or industrial use",
     "secondary-title": "",
-    "mision": "", 
-    "paragraph1": "",
-    "vision": "", 
-    "paragraph2": ""
+    "mision": "",
+    "vision": ""
   },
   "home": {
-    "0.": {
-      "titulo": "",
-      "etiquetas1": {
-        "titulo": "",
-        "subtitulo": "",
-        "contenido": {
-          "titulo": "",
-          "bloquetexto": "",
-          "lista": {
-            "lista1": "",
-            "lista2": "",
-            "lista3": ""
-          }
-        }
-      },
-      "etiquetas2": {
-        "titulo": "",
-        "subtitulo": "",
-        "contenido": {
-          "titulo": "",
-          "bloquetexto": "",
-          "lista": {
-            "lista1": "",
-            "lista2": "",
-            "lista3": ""
-          }
-        }
-      },
-      "etiquetas3": {
-        "titulo": "",
-        "subtitulo": "",
-        "contenido": {
-          "titulo": "",
-          "bloquetexto": "",
-          "lista": {
-            "lista1": "",
-            "lista2": "",
-            "lista3": ""
-          }
-        }
+    "metodology": {
+      "some": "In some of our projects",
+      "title": "We give our all and create even more opportunities to grow processes.",
+      "different": "How differently did we build this?",
+      "subtitle": "These are our best skills to get your projects off the ground.",
+      "competences": {
+        "com1": "Creativity",
+        "com1-content": "We create with inventiveness, this is a great competition that few handle",
+        "com2": "Innovation",
+        "com2-content": "We allow ourselves to be in constant innovation and updating being at the forefront.",
+        "com3": "Effective solutions",
+        "com3-content": "The just and necessary that your project needs at the time.",
+        "com4": "Tech support and support",
+        "com4-content": "Agile technical support and warranties with review quite effectively."
       }
     },
-    "metodology": {
-     "some": "",
-     "title": "",
-     "diferent": "", 
-     "subtitle": "",
-     "competences": {
-       "com1": "",
-       "com2": "",
-       "com3": "",
-       "com4": ""
-     }
-    },
     "infoFaq": {
-      "intro": "",
-      "title": ""
+      "intro": "FREQUENTLY QUESTIONS",
+      "titlea": "If you want to know more information enter our",
+      "titleb": "FAQ(Frequent Asked Questions)",
+      "btntext": "Read More"
     }
   },
   "faq": {

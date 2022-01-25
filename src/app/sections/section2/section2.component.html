@@ -1,6 +1,6 @@
 <section class="wrapper bg-light">
   <div class="container pb-15 pb-md-17">
-    <div class="row gx-md-5 gy-5 mt-n19 mb-14 mb-md-17">
+    <div class="row gx-md-5 gy-5 mt-n19 mb-14 mb-md-17" *ngIf="!falsy">
       <div class="margin-style"> 
         <img (click)="changeLanguaje('en')" src="./assets/nares/usa.png" alt="">
         <img (click)="changeLanguaje('es')" src="./assets/nares/ven.png" alt="">
@@ -51,9 +51,14 @@
         <!--/column -->
       </div>
       <!--/.row -->
+
+      <div *ngIf="falsy">
+        <br><br><br>
+      </div>
+
       <div class="row">
         <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
-          <h3 class="display-3 mb-10 px-xl-10 px-xxl-15">Conoce la metodología de construcción de nuestros productos para dar solucion a sus proyectos</h3>
+          <h3 class="display-3 mb-10 px-xl-10 px-xxl-15">{{"services.principal-title" | translate}}</h3>
         </div>
         <!-- /column -->
       </div>
@@ -61,20 +66,20 @@
       <ul class="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
         <li class="nav-item"> <a class="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
             <div class="text-center">
-              <h4>Sistema solar fotovoltaíco</h4>
-              <p>El uso de paneles solares y todo un compendio de equipos electronicos.</p>
+              <h4>{{"services.etiquetas1.titulo" | translate}}</h4>
+              <p>{{"services.etiquetas1.subtitulo" | translate}}</p>
             </div>
           </a> </li>
         <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
             <div class="text-center">
-              <h4>Sistema de bombeo</h4>
-              <p>Generamos de manera automática un sistema de bombeo de agua con energía solar.</p>
+              <h4>{{"services.etiquetas2.titulo" | translate}}</h4>
+              <p>{{"services.etiquetas2.subtitulo" | translate}}</p>
             </div>
           </a> </li>
         <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-3">
             <div class="text-center">
-              <h4>Calentadores de agua</h4>
-              <p>A traves de bobinas de cobre es posible calentar el agua usando la energia solar.</p>
+              <h4>{{"services.etiquetas3.titulo" | translate}}</h4>
+              <p>{{"services.etiquetas3.subtitulo" | translate}}</p>
             </div>
           </a> </li>
       </ul>
@@ -87,12 +92,12 @@
             </div>
             <!--/column -->
             <div class="col-lg-6">
-              <h2 class="mb-3">Sistema solar fotovoltaíco</h2>
-              <p>La energía solar fotovoltaica es una fuente de energía renovable y limpia que utiliza la radiación solar para producir electricidad, esta puede ser producida utilizando los diferentes componentes y paneles solares que se presentan en el diagrama a continuación.</p>
+              <h2 class="mb-3">{{ "services.etiquetas1.contenido.titulo" | translate}}</h2>
+              <p>{{ "services.etiquetas1.contenido.contenido" | translate}}</p>
               <ul class="icon-list bullet-bg bullet-soft-blue">
-                <li><i class="uil uil-check"></i>Controlador de corriente (Energia solar y electríca).</li>
-                <li><i class="uil uil-check"></i>Paneles solares de acuerdo a la necesidad energética del cliente.</li>
-                <li><i class="uil uil-check"></i>Inversores y baterias de corriente que permite la recuperación y uso de la energía </li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas1.contenido.lista.lista1" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas1.contenido.lista.lista2" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas1.contenido.lista.lista3" | translate}}</li>
               </ul>
             </div>
             <!--/column -->
@@ -107,13 +112,12 @@
             </div>
             <!--/column -->
             <div class="col-lg-6">
-              <h2 class="mb-3">Sistema de bombeo</h2>
-              <p>El sistema de bombeo que contamos en NaresEnergy se basa en un principio sencillo: “La presión ejercida sobre la superficie de un fluido puede ser recuperada a través del uso de maquinarias electricas de bombeo energia que se captura con paneles solares y permite la ejecución de cada una de las tareas requerídas, algunos componentes se presentan en el diagrama a continuación. </p>
+              <h2 class="mb-3">{{ "services.etiquetas2.contenido.titulo" | translate}}</h2>
+              <p>{{ "services.etiquetas2.contenido.bloquetexto" | translate}}</p>
               <ul class="icon-list bullet-bg bullet-soft-blue">
-                <li><i class="uil uil-check"></i>Controlador de corriente (Energia solar y electríca) y baterias de recuperación de la energia.</li>
-                <li><i class="uil uil-check"></i>Paneles solares de acuerdo a la necesidad energética del cliente.</li>
-                <li><i class="uil uil-check"></i>Tubos de bombeo y bombas de .</li>
-                <li><i class="uil uil-check"></i>Donec id elit non mi porta gravida at eget.</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista1" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista2" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista3" | translate}}</li>
               </ul>
               <!--a href="#" class="btn btn-blue mt-2">Learn More</!--a-->
             </div>
@@ -129,14 +133,12 @@
             </div>
             <!--/column -->
             <div class="col-lg-6">
-              <h2 class="mb-3">Calentadores de Agua</h2>
-              <p>El sistema de funcionamiento del calentador solar de agua sin presión es un sistema pasivo basado en el principio de la 
-                termosifón como alternativa de ahorro de energía, este funciona a través del calentamiento solar de los tubos cambiando la 
-                densidad del agua fria a caliente y enviando el agua al interior de un tanque .</p>
+              <h2 class="mb-3">{{ "services.etiquetas2.contenido.titulo" | translate}}</h2>
+              <p>{{ "services.etiquetas2.contenido.bloquetexto" | translate}}</p>
               <ul class="icon-list bullet-bg bullet-soft-blue">
-                <li><i class="uil uil-check"></i>Tanque de agua con capacidad de 100 ltrs hasta 300 lts.</li>
-                <li><i class="uil uil-check"></i>Pueden ser instalados tanto en el techo de su casa como en el edificio o en su sotano</li>
-                <li><i class="uil uil-check"></i>Pueden utilizar paneles de tipo (Colector solar) y estos a su vez calentarán el agua en los respectivos tanques.</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista1" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista2" | translate}}</li>
+                <li><i class="uil uil-check"></i>{{ "services.etiquetas2.contenido.lista.lista3" | translate}}</li>
               </ul>
             </div>
             <!--/column -->

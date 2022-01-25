@@ -11,6 +11,7 @@ export class AppComponent {
 
   constructor(public translate: TranslateService) {
     this.translate.addLangs(['es', 'en']);
-    this.translate.setDefaultLang('en');
+    let idiom = !localStorage.getItem('idiom') ? 'en' : localStorage.getItem('idiom'); 
+    this.translate.setDefaultLang( idiom != null ? idiom : 'en' );
   }
 }

@@ -1,0 +1,184 @@
+{
+  "hello": "This is a grate the think",
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "infoService": {
+      "srv1": "Sistema solar fotovoltaíco",
+      "srv2": "Iluminación",
+      "srv3": "Sistema de Bombeo",
+      "srv4": "Baterias",
+      "srv5": "Calentadores de Agua"
+    },
+    "infoAbout": {
+      "about1": "Quienes somos",
+      "about2": "Misión",
+      "about3": "Visión",
+      "about4": "Empresa",
+      "about5": "Ubicaciones"
+    },
+    "login": "Entrar"
+  },
+  "header": {
+    "titleHeader": "We bring solutions to easier make yours energy products",
+    "textHeader": "We are a company that brings energy benefits to your company with long-term relationships with ours customers"
+  },
+  "centerMenu": {
+    "srv1": "Sistema solar fotovoltaíco",
+    "srv2": "Iluminación",
+    "srv3": "Sistema de Bombeo",
+    "srv4": "Calentadores de Agua"
+  },
+  "contact": {
+    "principal-title": "",
+    "secondary-title": "",
+    "advertisement": {
+      "title": "",
+      "paragraph1": "",
+      "paragraph2": "",
+      "paragraph4": ""
+    },
+    "form": {
+      "input-name": "",
+      "input-last": "",
+      "input-email": "",
+      "input-department": {
+        "option1": "Sales",
+        "option2": "Marketing",
+        "option3": "Customer suport"
+      },
+      "input-menssage": ""
+    },
+    "form-error": {
+      "error-name": "",
+      "error-last": "",
+      "error-email": "",
+      "error-department": {
+        "option1": "Sales",
+        "option2": "Marketing",
+        "option3": "Customer suport"
+      },
+      "error-menssage": "",
+      "error-general-menssage": ""
+    },
+    "agree": "I agree to",
+    "agree-url": "terms and policy.",
+    "btn-send": ""
+  },
+  "locations": {
+    "address": {
+      "usa": "",
+      "co": "",
+      "ven": ""
+    },
+    "phone": {
+      "usa": "",
+      "co": "",
+      "ven": ""
+    },
+    "email": "",
+    "maps-url": {
+      "usa": "",
+      "co": "",
+      "ven": ""
+    }
+  },
+  "about": {
+    "principal-title": "",
+    "secondary-title": "",
+    "sub-title1": "", 
+    "paragraph1": "",
+    "sub-title2": "", 
+    "paragraph2": ""
+  },
+  "misionvision": {
+    "principal-title": "",
+    "secondary-title": "",
+    "mision": "", 
+    "paragraph1": "",
+    "vision": "", 
+    "paragraph2": ""
+  },
+  "home": {
+    "0.": {
+      "titulo": "",
+      "etiquetas1": {
+        "titulo": "",
+        "subtitulo": "",
+        "contenido": {
+          "titulo": "",
+          "bloquetexto": "",
+          "lista": {
+            "lista1": "",
+            "lista2": "",
+            "lista3": ""
+          }
+        }
+      },
+      "etiquetas2": {
+        "titulo": "",
+        "subtitulo": "",
+        "contenido": {
+          "titulo": "",
+          "bloquetexto": "",
+          "lista": {
+            "lista1": "",
+            "lista2": "",
+            "lista3": ""
+          }
+        }
+      },
+      "etiquetas3": {
+        "titulo": "",
+        "subtitulo": "",
+        "contenido": {
+          "titulo": "",
+          "bloquetexto": "",
+          "lista": {
+            "lista1": "",
+            "lista2": "",
+            "lista3": ""
+          }
+        }
+      }
+    },
+    "metodology": {
+     "some": "",
+     "title": "",
+     "diferent": "", 
+     "subtitle": "",
+     "competences": {
+       "com1": "",
+       "com2": "",
+       "com3": "",
+       "com4": ""
+     }
+    },
+    "infoFaq": {
+      "intro": "",
+      "title": ""
+    }
+  },
+  "faq": {
+    "principal-title": "",
+    "secondary-title": "",
+    "faq1": {
+      "question": "",
+      "ask": ""
+    },
+    "faq2": {
+      "question": "",
+      "ask": ""
+    },
+    "faq3": {
+      "question": "",
+      "ask": ""
+    },
+    "faq4": {
+      "question": "",
+      "ask": ""
+    }
+  }
+}
